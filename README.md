@@ -1,40 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Kimipet - Amar, cuidar, Proteger
 
-## Getting Started
+[![Versão](https://img.shields.io/github/v/release/LiedsonLB/kimipet)](https://github.com/LiedsonLB/kimipet/releases)
+[![Forks](https://img.shields.io/github/forks/LiedsonLB/kimipet)](https://github.com/LiedsonLB/kimipet/network/members)
+[![Contribuidores](https://img.shields.io/github/contributors/LiedsonLB/kimipet)](https://github.com/LiedsonLB/kimipet/graphs/contributors)
+[![Pull Requests Abertos](https://img.shields.io/github/issues-pr/LiedsonLB/kimipet)](https://github.com/LiedsonLB/kimipet/pulls)
+[![Última Atualização](https://img.shields.io/github/last-commit/LiedsonLB/kimipet)](https://github.com/LiedsonLB/kimipet/commits/master) 
 
-First, run the development server:
+![NeoBoard](/public/img/logo-kimipet-text-orange.png)
+
+Kimipet é uma plataforma revolucionária que busca empoderar os donos de pets, oferecendo um local seguro e conveniente para armazenar e acessar dados importantes de seus animais de estimação. Acreditamos que cada pet merece cuidados da mais alta qualidade, e cada proprietário de pet merece acesso transparente e fácil às informações essenciais sobre seus companheiros peludos.
+
+## Design
+
+- **Figma:** [Kimipet](https://www.figma.com/proto/QW6j6oDqQlIWFgJog8lOmq/Kimipet?node-id=1430-14466&t=2lToKUe9o1lHr4Yb-1&starting-point-node-id=1430%3A14466)
+
+## Testes
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg"  height="30" width="40" style="margin: 0 auto; width: 100%"/>
+<br />
+<p style="text-align: center">Ferramenta de Testes: Jest</p>
+
+- Teste de carregamento de componentes HTML ❌
+- Testes funcionais ❌
+- Testes de sistema ❌
+- Testes de Carregamento ❌
+
+# Conhecimentos utilizados:
+<div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content:center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML" height="30" width="40">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS" height="30" width="40">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg" alt="typescript" height="30" width="40">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="30" width="40">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" alt="npm" height="30" width="40">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="30" width="40">        
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Git" height="30" width="40"/> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg"  height="30" width="40"/> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" height="30" width="40">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" height="30" width="40">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" height="30" width="40"/>
+</div>
+<br />
+
+# Rodando o Projeto
+
+## Clone o Repositório
+
+1. Abra o terminal.
+
+2. Navegue até o diretório onde deseja clonar o repositório.
+
+3. Execute o seguinte comando:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/LiedsonLB/kimipet.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Execute o Next.js
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### 1. Navegue até o diretório<br/>
+`kimipet/`.
+### 2. Instale as dependências utilizando npm ou yarn:
+``` bash
+npm install
+```
+ou
+``` bash
+yarn install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### 3. Inicie o servidor de desenvolvimento:
+``` bash
+npm run dev
+```
+ou
+``` bash
+yarn dev
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Releases
