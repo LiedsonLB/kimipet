@@ -8,13 +8,27 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        'orange': '#ff8133',
+        'white': '#f2f2f2',
+        'purple': '#660d8c',
+        'red': '#e50000',
+        'brown': '#331400',
+        'gray': '#252525',
+        'purple-dark': '#44095d',
+        'purple-light': '#eed0fb',
+        'white-light': '#fcfcfc',
+      },
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+        pacifico: ['Pacifico', 'cursive'],
+        quicksand: ['Quicksand', 'sans-serif'],
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss'),
+    require('autoprefixer'),
+  ],
 };
 export default config;

@@ -1,6 +1,14 @@
+import AboutUs from "@/components/AboutUs";
+import Apresetion from "@/components/Apresention";
+import Header from "@/components/header";
 import "@/styles/globals.css";
-import type { AppProps } from "next/app";
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+export default function App() {
+  return (
+    <>
+      <Header />
+      <Apresetion />
+      <AboutUs />
+    </>
+  );
 }
