@@ -4,7 +4,7 @@
 [![Forks](https://img.shields.io/github/forks/LiedsonLB/kimipet)](https://github.com/LiedsonLB/kimipet/network/members)
 [![Contribuidores](https://img.shields.io/github/contributors/LiedsonLB/kimipet)](https://github.com/LiedsonLB/kimipet/graphs/contributors)
 [![Pull Requests Abertos](https://img.shields.io/github/issues-pr/LiedsonLB/kimipet)](https://github.com/LiedsonLB/kimipet/pulls)
-[![Última Atualização](https://img.shields.io/github/last-commit/LiedsonLB/kimipet)](https://github.com/LiedsonLB/kimipet/commits/master) 
+[![Última Atualização](https://img.shields.io/github/last-commit/LiedsonLB/kimipet)](https://github.com/LiedsonLB/kimipet/commits/master)
 
 ![NeoBoard](/public/img/logo-kimipet-text-orange.png)
 
@@ -75,5 +75,13 @@ ou
 ``` bash
 yarn dev
 ```
+
+### 4. Teste as rotas de api após iniciar:
+- rota de comentários:
+`http://localhost:3000/api/comments`
+- rota de recomendações:
+`http://localhost:3000/api/recommendations`
+- rota de comentários:
+`http://localhost:3000/api/comments`
 
 ## Releases

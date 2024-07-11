@@ -14,7 +14,7 @@ const config: Config = {
         'purple': '#660d8c',
         'red': '#e50000',
         'brown': '#331400',
-        'gray': '#252525',
+        'gray': '#404040',
         'purple-dark': '#44095d',
         'purple-light': '#eed0fb',
         'white-light': '#fcfcfc',
@@ -23,6 +23,9 @@ const config: Config = {
         montserrat: ['Montserrat', 'sans-serif'],
         pacifico: ['Pacifico', 'cursive'],
         quicksand: ['Quicksand', 'sans-serif'],
+      },
+      screens: {
+        'md-lg': '800px',
       },
     },
   },

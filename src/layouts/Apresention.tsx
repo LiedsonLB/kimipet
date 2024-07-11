@@ -1,4 +1,4 @@
-import SearchContainer from "./SearchContainer";
+import SearchContainer from "@/components/SearchContainer";
 
 export default function Apresetion() {
     return (
