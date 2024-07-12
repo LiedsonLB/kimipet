@@ -122,3 +122,21 @@ button:hover {
   width: 100%;
   border-radius: 10px;
 }
+
+.overlay {
+  height: 30%;
+}
+
+.card {
+  transition: .3s;
+  cursor: pointer;
+}
+
+.card:hover .overlay {
+  height: 60%;
+  transition: .3s ease-in-out;
+}
+
+.card:hover .container-img {
+  filter: brightness(0.5) blur(1px);
+}
