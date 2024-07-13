@@ -16,6 +16,8 @@ const config: Config = {
         'red': '#e50000',
         'brown': '#331400',
         'gray': '#404040',
+        'black': '#202020',
+        'blue': '#002566',
         'purple-dark': '#44095d',
         'purple-light': '#eed0fb',
         'white-light': '#fcfcfc',

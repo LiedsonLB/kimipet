@@ -31,7 +31,5 @@ export default function handler(req: NextApiRequest, res: NextApiResponse<Data[]
     },
   ];
 
-  // Retorna os dados como JSON
   res.status(200).json(data);
 }
-console.log()

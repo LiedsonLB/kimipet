@@ -1,16 +1,19 @@
-import AboutUs from "@/layouts/AboutUs";
-import Apresetion from "@/layouts/Apresention";
-import Header from "@/layouts/header";
-import Recomendations from "@/layouts/Recomendations";
-import "@/styles/globals.css";
+import type { ReactElement, ReactNode } from 'react'
+import type { NextPage } from 'next'
+import type { AppProps } from 'next/app'
+import '../styles/globals.css';
+ 
+export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
+  getLayout?: (page: ReactElement) => ReactNode
+}
+ 
+type AppPropsWithLayout = AppProps & {
+  Component: NextPageWithLayout
+}
+ 
+export default function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 
-export default function App() {
-  return (
-    <>
-      <Header />
-      <Apresetion />
-      <AboutUs />
-      <Recomendations />
-    </>
-  );
+  const getLayout = Component.getLayout ?? ((page) => page)
+ 
+  return getLayout(<Component {...pageProps} />)
 }

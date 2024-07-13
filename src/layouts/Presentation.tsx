@@ -1,6 +1,6 @@
 import SearchContainer from "@/components/SearchContainer";
 
-export default function Apresetion() {
+export default function Presentation() {
     return (
         <div className="flex justify-center items-center apresention-background">
             <div className="font-montserrat max-w-5xl px-6 text-center text-white-light flex flex-col gap-5" style={{fontSize: '1.5rem', transform: 'translateY(-1rem)'}}>

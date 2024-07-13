@@ -12,7 +12,7 @@ interface Recomendation {
 
 // /api/recomendations
 export default function handler(req: NextApiRequest, res: NextApiResponse<Recomendation[]>) {
-  // Simulação de dados fictícios
+  
   const data: Recomendation[] = [
     {
       picture: "/img/dog-image-1.png",
@@ -21,7 +21,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse<Recome
       phone: "(86) 99863-5571",
       address: "Rua Quinto dos Vinhos, Piauí",
       status: 'Fechado',
-      url: 'https://github.com/LiedsonLB/kimipet'
+      url: '/auth/login'
     },
     {
       picture: "/img/dog-image-2.png",
@@ -61,6 +61,5 @@ export default function handler(req: NextApiRequest, res: NextApiResponse<Recome
     }
   ];
 
-  // Retorna os dados como JSON
   res.status(200).json(data);
 }

@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 // Interface para os coments
-interface Data {
+interface Comment {
     picture: string;
     name: string;
     comment: string;
@@ -10,11 +10,10 @@ interface Data {
 
 // Interface para verificação de dado
 interface ExperienceCommentsProps {
-    data: Data[];
+    data: Comment[];
 }
 
 export default function ExperienceComments({ data }: ExperienceCommentsProps) {
-    console.log(data)
     return (
         <div className="flex flex-col gap-3" style={{ maxHeight: '16rem', overflow: 'auto' }}>
             {data.map((item, index) => (
