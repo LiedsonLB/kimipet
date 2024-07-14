@@ -16,7 +16,7 @@ Kimipet é uma plataforma revolucionária que busca empoderar os donos de pets, 
 
 ## Site
 
-- **Site na Vercel:** [Kimipet site](https://kimipet-liedsonlb-liedsonlbs-projects.vercel.app)
+- **Site na Vercel:** [Kimipet site]([https://kimipet-liedsonlb-liedsonlbs-projects.vercel.app](https://kimipet.vercel.app/))
 
 ## Testes
  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg"  height="30" width="40" style="margin: 0 auto; width: 100%"/>
@@ -89,3 +89,4 @@ yarn dev
 `http://localhost:3000/api/comments`
 
 ## Releases
+v1.0.0 ✅
