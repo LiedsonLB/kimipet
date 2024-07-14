@@ -27,7 +27,7 @@ export default function DataNumbers() {
     }, []);
 
     return (
-        <div className="flex flex-row justify-center items-center py-20 gap-40 text-center m-auto w-[70%] font-montserrat">
+        <div className="flex flex-col md-lg:flex-row justify-center items-center py-20 gap-8 md-lg:gap-40 text-center m-auto w-[70%] font-montserrat">
             {data.map((item, index) => (
                 <div key={index} className="flex flex-col items-center">
                     <div className="bg-orange relative h-[20px] w-2/5 flex justify-center mb-4 rounded-lg">

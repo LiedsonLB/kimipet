@@ -4,6 +4,8 @@ import DataNumbers from "@/layouts/DataNumbers";
 import Header from "@/layouts/header";
 import Recomendations from "@/layouts/Recomendations";
 import SocialProjects from "@/layouts/SocialProjects";
+import DownloadApp from "@/layouts/DownloadApp";
+import Footer from "@/layouts/Footer";
 
 export default function Home () {
   return (
@@ -14,6 +16,8 @@ export default function Home () {
       <Recomendations />
       <DataNumbers />
       <SocialProjects />
+      <DownloadApp />
+      <Footer />
     </>
   );
 }

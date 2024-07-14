@@ -6,20 +6,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* Definições de variáveis de cor */
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
 
-/* Estilo para h1 com font-weight 900 */
 h1 {
   font-weight: 900;
   font-family: "Poppins", sans-serif;
 }
 
-/* Estilo de fundo para body */
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -28,11 +25,12 @@ h1 {
   }
 }
 
-body {
+body, html {
   background-color: #f2f2f2;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
-/* Utilidades adicionais */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -40,8 +38,7 @@ body {
 }
 
 .apresention-background {
-  min-height: 400px;
-  position: relative; /* Remova as aspas em 'relative' */
+  position: relative;
   background-size: cover;
   background-color: #ff8133;
   z-index: 2;
@@ -57,21 +54,29 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: #ff8133; /* Cor de fundo */
-  opacity: 0.7; /* Transparência da cor de fundo */
+  background-color: #ff8133;
+  opacity: 0.7;
   z-index: -1;
 }
 
-.shadow-container {
-  box-shadow: 1px 1px 8px rgb(92, 90, 90);
-  border-radius: 15px;
-  min-width: 750px;
-  max-width: 750px;
-  width: 100%;
+.app-backgound {
+  z-index: 2;
+  background-color: #ff8133;
+  background-size: cover;
 }
 
-.search-container {
-  bottom: -30%;
+.app-backgound::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url("https://i.pinimg.com/564x/e9/48/28/e9482807b83ed1c524d3354c54a99026.jpg");
+  opacity: 0.1;
+  z-index: -1;
+  filter: brightness(0.8) contrast(1.6);
 }
 
 /* Estilos para o input e label */

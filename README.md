@@ -12,7 +12,11 @@ Kimipet é uma plataforma revolucionária que busca empoderar os donos de pets, 
 
 ## Design
 
-- **Figma:** [Kimipet](https://www.figma.com/proto/QW6j6oDqQlIWFgJog8lOmq/Kimipet?node-id=1430-14466&t=2lToKUe9o1lHr4Yb-1&starting-point-node-id=1430%3A14466)
+- **Figma:** [Kimipet design](https://www.figma.com/proto/QW6j6oDqQlIWFgJog8lOmq/Kimipet?node-id=1430-14466&t=2lToKUe9o1lHr4Yb-1&starting-point-node-id=1430%3A14466)
+
+## Site
+
+- **Site na Vercel:** [Kimipet site](https://kimipet-liedsonlb-liedsonlbs-projects.vercel.app/?_vercel_share=xM5fkUMsP7EcZgjZX7FG1WcgoNL9rDUy)
 
 ## Testes
  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg"  height="30" width="40" style="margin: 0 auto; width: 100%"/>
