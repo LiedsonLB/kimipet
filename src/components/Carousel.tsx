@@ -31,11 +31,11 @@ const Carousel = () => {
     const translateValue = -currentSlide * slideWidth;
 
     return (
-        <div className="absolute overflow-hidden" style={{ width: `${slideWidth * 10}px`, height: '150px' }}>
+        <div className="absolute overflow-hidden" style={{ width: `${slideWidth * 10}px`, height: '200px' }}>
             <div className="flex transition-transform ease" style={{ transform: `translateX(${translateValue}px)`, transitionDuration: '2s', width: `${totalWidth}px` }}>
                 {slidesData.map((slide, index) => (
                     <div key={slide.id} className="w-full" style={{ width: `${slideWidth}px` }}>
-                        <img src={slide.src} alt={slide.alt} className="w-full h-[150px]" />
+                        <img src={slide.src} alt={slide.alt} className="w-full h-[200px]" />
                     </div>
                 ))}
             </div>

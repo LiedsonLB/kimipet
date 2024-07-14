@@ -2,7 +2,7 @@ import Carousel from "@/components/Carousel";
 
 export default function SocialProjects() {
     return (
-        <div className="flex flex-col gap-12 p-20 bg-purple-light rounded-xl relative max-w-5xl mx-auto overflow-hidden">
+        <div className="flex flex-col gap-12 p-20 bg-purple-light rounded-xl relative mx-auto overflow-hidden" style={{maxHeight: 'auto', maxWidth: '90%'}}>
             <h1 className="text-4xl text-purple-dark mb-1 font-bold">Projetos Sociais</h1>
             <div className="max-w-lg">
                 <div className="text-black font-medium mb-8">
@@ -13,7 +13,7 @@ export default function SocialProjects() {
                     vem ajudar!
                 </button>
             </div>
-            <div className="relative h-10 w-full pointer-events-none transform rotate-[330deg]">
+            <div className="absolute h-auto w-full pointer-events-none transform rotate-[330deg] -translate-x-[-40%] -translate-y-[-7rem]">
                 <Carousel />
             </div>
         </div>
