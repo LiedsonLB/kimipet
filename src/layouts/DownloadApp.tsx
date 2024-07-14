@@ -10,7 +10,7 @@ export default function DownloadApp() {
                             <h1 className="text-[2.2rem] md-lg:text-[2.6rem] text-purple-dark mb-1 font-bold">Conheça nosso app!</h1>
                             <p className="flex flex-row font-montserrat font-medium text-[1.5rem] text-[#22042f]" style={{ letterSpacing: '1px', fontWeight: '600' }}>Todas as nossas facilidades na palma da sua mão.</p>
                         </div>
-                        <div className="flex gap-4">
+                        <div className="flex gap-4 justify-center md-lg:justify-start">
                             <div className="w-48 h-16 relative">
                                 <a href="/appstore">
                                     <Image
@@ -35,8 +35,7 @@ export default function DownloadApp() {
                     </div>
                     <div className="max-w-[40%] h-auto relative flex flex-col justify-end items-baseline">
                         <Image
-                            className="relative"
-                            style={{ transform: '' }}
+                            className="relative md-lg:translate-y-[-5rem]"
                             src='/img/appkimipet.png'
                             alt='mobile app kimipet'
                             layout="responsive"

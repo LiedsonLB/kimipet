@@ -22,7 +22,7 @@ export default function AboutUs() {
     }, [])
 
     return (
-        <div className="flex flex-col items-center md-lg:flex-row gap-12 pt-[10rem] md-lg:py-10 md-lg:justify-around" style={{ maxWidth: '90%', margin: '0 auto' }}>
+        <div className="flex flex-col items-center md-lg:flex-row gap-12 sm-lg:pt-[14rem]  pt-[10rem]  md-lg:py-10 md-lg:justify-around" style={{ maxWidth: '90%', margin: '0 auto' }}>
             <div style={{ maxWidth: '700px' }}>
                 <h1 className="text-orange font-poppins" style={{ fontWeight: '800', letterSpacing: '1px', fontSize: '2rem' }}>Conectando pets, donos e cuidados de forma inovadora</h1>
                 <br />

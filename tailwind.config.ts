@@ -29,6 +29,7 @@ const config: Config = {
       },
       screens: {
         'md-lg': '800px',
+        'sm-lg': {'max': '360px'},
       },
     },
   },
