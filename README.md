@@ -89,3 +89,4 @@ yarn dev
 `http://localhost:3000/api/comments`
 
 ## Releases
+v1.0.0 ✅
