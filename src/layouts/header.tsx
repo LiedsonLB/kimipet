@@ -3,7 +3,7 @@ import logo from "/public/img/logo-kimipet-text-orange.png"
 
 export default function Header() {
   return (
-    <div className="bg-white-light text-orange flex justify-between items-center px-12 py-4">
+    <div className="bg-white-light text-orange flex justify-between items-center px-6 md-lg:px-12 py-4">
       <a href="/">
         <Image
           src={logo}
