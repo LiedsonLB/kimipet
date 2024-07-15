@@ -25,7 +25,8 @@ h1 {
   }
 }
 
-body, html {
+body,
+html {
   background-color: #f2f2f2;
   width: 100vw;
   overflow-x: hidden;
@@ -106,8 +107,8 @@ body, html {
   transition: .3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-search:focus ~ .user-label,
-.input-search:not(:placeholder-shown) ~ .user-label {
+.input-search:focus~.user-label,
+.input-search:not(:placeholder-shown)~.user-label {
   transform: translateY(-50%) translateX(-1rem) scale(0.8);
   background-color: transparent;
   padding: 0 .2em;
@@ -144,4 +145,51 @@ button:hover {
 
 .card:hover .container-img {
   filter: brightness(0.5) blur(1px);
+}
+
+.aside-background {
+  backdrop-filter: blur(1px);
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.aside-animation {
+  transition: 1s ease;
+}
+
+/* Animations */
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInAndScale {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeInAndUp {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

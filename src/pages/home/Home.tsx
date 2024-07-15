@@ -7,9 +7,9 @@ import SocialProjects from "@/layouts/SocialProjects";
 import DownloadApp from "@/layouts/DownloadApp";
 import Footer from "@/layouts/Footer";
 
-export default function Home () {
+export default function Home() {
   return (
-    <>
+    <div className="relative">
       <Header />
       <Presentation />
       <AboutUs />
@@ -18,6 +18,6 @@ export default function Home () {
       <SocialProjects />
       <DownloadApp />
       <Footer />
-    </>
+    </div>
   );
 }

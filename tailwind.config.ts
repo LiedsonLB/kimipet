@@ -26,6 +26,7 @@ const config: Config = {
         montserrat: ['Montserrat', 'sans-serif'],
         pacifico: ['Pacifico', 'cursive'],
         quicksand: ['Quicksand', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
       },
       screens: {
         'md-lg': '800px',
