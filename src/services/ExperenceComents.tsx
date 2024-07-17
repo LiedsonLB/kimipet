@@ -8,7 +8,6 @@ interface Comment {
     local: string;
 }
 
-// Interface para verificação de dado
 interface ExperienceCommentsProps {
     data: Comment[];
 }
@@ -28,7 +27,7 @@ export default function ExperienceComments({ data }: ExperienceCommentsProps) {
                                 alt={item.name}
                             />
                         </div>
-                        <p style={{maxWidth: 'calc(100% - 100px)', minHeight: '50px', display: 'flex', alignItems: 'center'}}>{item.comment}</p>
+                        <p style={{maxWidth: 'calc(100% - 100px)', minHeight: '50px', display: 'flex', alignItems: 'center', overflowX: 'auto'}}>{item.comment}</p>
                     </div>
                     <div className="flex flex-row justify-between font-montserrat" style={{width: '100%', maxWidth: '100%', marginTop: '1rem', color: '#303030'}}>
                         <p className="font-medium bold" style={{fontWeight: '500'}}>{item.name}</p>
