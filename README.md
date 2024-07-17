@@ -6,7 +6,7 @@
 [![Pull Requests Abertos](https://img.shields.io/github/issues-pr/LiedsonLB/kimipet)](https://github.com/LiedsonLB/kimipet/pulls)
 [![Última Atualização](https://img.shields.io/github/last-commit/LiedsonLB/kimipet)](https://github.com/LiedsonLB/kimipet/commits/master)
 
-![NeoBoard](/public/img/logo-kimipet-text-orange.png)
+![kimipet](/public/img/logo-kimipet-text-orange.png)
 
 Kimipet é uma plataforma revolucionária que busca empoderar os donos de pets, oferecendo um local seguro e conveniente para armazenar e acessar dados importantes de seus animais de estimação. Acreditamos que cada pet merece cuidados da mais alta qualidade, e cada proprietário de pet merece acesso transparente e fácil às informações essenciais sobre seus companheiros peludos.
 
