@@ -1,12 +1,11 @@
 import type { ReactElement } from 'react'
 import Layout from '@/components/layout'
 import type { NextPageWithLayout } from '@/pages/_app'
+import CadasterLayout from '@/layouts/CadasterLayout'
  
 const Page: NextPageWithLayout = () => {
   return (
-    <h1>
-        Aqui é a página de cadastro
-    </h1>
+    <CadasterLayout />
   )
 }
  

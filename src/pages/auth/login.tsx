@@ -1,12 +1,11 @@
 import type { ReactElement } from 'react'
 import Layout from '@/components/layout'
 import type { NextPageWithLayout } from '@/pages/_app'
+import LoginLayout from '@/layouts/LoginLayout'
  
 const Page: NextPageWithLayout = () => {
   return (
-    <h1>
-        Aqui é a página de login
-    </h1>
+    <LoginLayout />
   )
 }
  

@@ -86,7 +86,7 @@ html {
   width: 100%;
 }
 
-.input-search {
+.input-search, .input-search-login {
   border: solid 1px #e7e7e7;
   border-radius: 1rem;
   background: #fcfcfc;
@@ -107,14 +107,14 @@ html {
   transition: .3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-search:focus~.user-label,
-.input-search:not(:placeholder-shown)~.user-label {
+.input-search:focus~.user-label, .input-search-login:focus~.user-label,
+.input-search:not(:placeholder-shown)~.user-label, .input-search-login:not(:placeholder-shown)~.user-label {
   transform: translateY(-50%) translateX(-1rem) scale(0.8);
   background-color: transparent;
   padding: 0 .2em;
 }
 
-.input-search:focus {
+.input-search:focus, .input-search-login:focus {
   outline: none;
 }
 

@@ -1,15 +1,28 @@
 import Image from "next/image";
 import logo from "/public/img/logo-kimipet-text-orange.png"
+import ModalLogin from "./ModalLogin";
+import { useState } from "react";
 
 interface AsideProps {
     onClose: () => void;
 }
 
-export default function Aside({ onClose } : AsideProps) {
+export default function Aside({ onClose }: AsideProps) {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const handleUserButtonClick = () => {
+        setIsModalOpen(!isModalOpen);
+    };
+
+    const handleCloseModal = () => {
+        setIsModalOpen(false);
+    };
+
     return (
         <div className="w-[100vw] h-[100vh] flex fixed z-10 md-lg:hidden">
+            {isModalOpen && <ModalLogin onClose={handleCloseModal} />}
             <div className="w-[100%] aside-background"
-            onClick={onClose}
+                onClick={onClose}
             ></div>
             <div className=" flex flex-col justify-between w-[40rem] bg-white-light py-4">
                 <div className='flex flex-col'>
@@ -37,7 +50,7 @@ export default function Aside({ onClose } : AsideProps) {
                     </nav>
                 </div>
                 <div className="flex justify-start px-8">
-                    <button>
+                    <button onClick={handleUserButtonClick}>
                         <svg xmlns="http://www.w3.org/2000/svg" fill='#ff8133' width="35" height="35" className="bi bi-person-fill" viewBox="0 0 16 16">
                             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
                         </svg>
